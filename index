@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tetris Simples</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="score-area">
+            <h2>Pontos: <span id="score">0</span></h2>
+        </div>
+        <canvas id="tetris" width="200" height="400"></canvas>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
